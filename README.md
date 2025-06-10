@@ -31,26 +31,25 @@ Aplikasi ini dikembangkan sebagai bagian dari tugas akhir mata kuliah **Pemrogra
 ---
 
 ## Struktur Proyek
-Mobile_Project_2025/
-```bash
+```plaintext
 Mobile_Project_2025/
 ├── app/
 │   ├── src/main/
 │   │   ├── java/com/project/todolist/
-│   │   │   ├── activity/        # MainActivity, navigasi layar utama  
-│   │   │   ├── fragment/        # Daftar tugas & form input/edit tugas  
-│   │   │   ├── adapter/         # TaskAdapter untuk RecyclerView  
-│   │   │   ├── model/           # Entity Task.java & model data  
-│   │   │   └── database/        # TaskDao.java & AppDatabase.java  
+│   │   │   ├── activity/        
+│   │   │   ├── fragment/        
+│   │   │   ├── adapter/        
+│   │   │   ├── model/            
+│   │   │   └── database/         
 │   │   ├── res/
-│   │   │   ├── layout/          # XML layout untuk Activity/Fragment  
-│   │   │   ├── drawable/        # Ikon, background  
-│   │   │   └── values/          # colors.xml, strings.xml, themes.xml  
+│   │   │   ├── layout/           
+│   │   │   ├── drawable/        
+│   │   │   └── values/          
 │   │   └── AndroidManifest.xml
-├── build.gradle                # Konfigurasi build (modul app)
-├── settings.gradle            # Setup modul dan root project
-└── README.md                  # Dokumentasi proyek ini
-
+├── build.gradle                
+├── settings.gradle            
+└── README.md                 
+```
 ---
 
 ## Fitur-Fitur Aplikasi
