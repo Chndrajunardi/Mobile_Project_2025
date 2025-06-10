@@ -1,6 +1,6 @@
-# ✅ Mobile_Project_2025 - Aplikasi To-Do List Android
+# Mobile_Project_2025 - Aplikasi To-Do List Android
 
-## 📌 Ringkasan Proyek
+   ## Ringkasan Project
 
 **Mobile_Project_2025** adalah sebuah aplikasi Android bertema produktivitas yang berfungsi sebagai to-do list digital. Aplikasi ini memungkinkan pengguna untuk mencatat, memodifikasi, menandai, dan menghapus tugas harian mereka. Dengan antarmuka yang sederhana namun fungsional, pengguna dapat fokus menyelesaikan pekerjaan secara efisien.
 
@@ -8,7 +8,7 @@ Aplikasi ini dikembangkan sebagai bagian dari tugas akhir mata kuliah **Pemrogra
 
 ---
 
-## 🧪 Tujuan Aplikasi
+## Tujuan Aplikasi
 
 - Membantu pengguna mengelola dan mengingat tugas-tugas penting secara terorganisir.
 - Meningkatkan produktivitas harian dengan mencatat target atau deadline.
@@ -16,7 +16,7 @@ Aplikasi ini dikembangkan sebagai bagian dari tugas akhir mata kuliah **Pemrogra
 
 ---
 
-## 🧰 Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 | Komponen           | Keterangan                                                                 |
 |--------------------|----------------------------------------------------------------------------|
@@ -30,7 +30,7 @@ Aplikasi ini dikembangkan sebagai bagian dari tugas akhir mata kuliah **Pemrogra
 
 ---
 
-## 📦 Struktur Proyek
+## Struktur Proyek
 Mobile_Project_2025/
 ├── app/
 │   ├── src/
@@ -56,31 +56,39 @@ Mobile_Project_2025/
 
 ---
 
-## ✨ Fitur-Fitur Aplikasi
+## Fitur-Fitur Aplikasi
 
 Berikut adalah fitur utama dari aplikasi ini:
 
-### ➕ Tambah Tugas
+### Tambah Tugas
 Pengguna dapat menambahkan tugas baru melalui form input. Setiap tugas dapat memiliki nama, deskripsi, dan status.
 
-### 🖊️ Edit Tugas
+### Edit Tugas
 Tugas yang telah dibuat dapat diedit untuk memperbarui informasi.
 
-### ✅ Tandai Tugas Selesai
+### Tandai Tugas Selesai
 Pengguna dapat menandai tugas sebagai telah selesai. Tugas selesai ditandai dengan gaya visual berbeda (misalnya garis coret atau warna abu-abu).
 
-### 🗑️ Hapus Tugas
+### Hapus Tugas
 Tugas dapat dihapus dari daftar secara permanen.
 
-### 💾 Penyimpanan Lokal (Offline)
+### Penyimpanan Lokal (Offline)
 Data disimpan secara lokal menggunakan Room Database, sehingga tetap tersedia meskipun tanpa koneksi internet.
 
-### ♻️ Tampilan Dinamis
+### Tampilan Dinamis
 Menggunakan LiveData dan ViewModel, semua perubahan data langsung ditampilkan di UI secara otomatis.
 
 ---
+## Tampilan Aplikasi
+![Home Screen](screenshots/Home.png)  
+![Add Task](screenshots/Add_Task.png)
+![Add Task](screenshots/Add_Date.png)
+![Add Task](screenshots/Daily_Quotes.png)
+![Add Task](screenshots/Edit_Task.png)
+![Add Task](screenshots/Setting.png)
+---
 
-## 📥 Instalasi & Menjalankan Proyek
+## Instalasi & Menjalankan Proyek
 
 Ikuti langkah-langkah berikut untuk menjalankan proyek ini di Android Studio:
 
