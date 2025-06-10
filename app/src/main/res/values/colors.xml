@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary colors -->
+    <color name="primary">#2196F3</color>
+    <color name="primary_light">#64B5F6</color>
+    <color name="primary_dark">#1976D2</color>
+    
+    <!-- Secondary colors -->
+    <color name="secondary">#03A9F4</color>
+    <color name="secondary_light">#4FC3F7</color>
+    <color name="secondary_dark">#0288D1</color>
+    
+    <!-- Accent colors -->
+    <color name="accent">#00BCD4</color>
+    <color name="accent_light">#4DD0E1</color>
+    <color name="accent_dark">#0097A7</color>
+    
+    <!-- Light theme colors -->
+    <color name="background_light">#F5F9FF</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="text_primary_light">#212121</color>
+    <color name="text_secondary_light">#757575</color>
+    <color name="text_hint_light">#BDBDBD</color>
+    
+    <!-- Dark theme colors -->
+    <color name="background_dark">#121212</color>
+    <color name="surface_dark">#1E1E1E</color>
+    <color name="text_primary_dark">#FFFFFF</color>
+    <color name="text_secondary_dark">#B3FFFFFF</color>
+    <color name="text_hint_dark">#80FFFFFF</color>
+    
+    <!-- Status colors -->
+    <color name="success">#4CAF50</color>
+    <color name="error">#F44336</color>
+    <color name="warning">#FFC107</color>
+    
+    <!-- Basic colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Current theme colors (will be overridden by theme) -->
+    <color name="background">@color/background_light</color>
+    <color name="surface">@color/surface_light</color>
+    <color name="text_primary">@color/text_primary_light</color>
+    <color name="text_secondary">@color/text_secondary_light</color>
+    <color name="text_hint">@color/text_hint_light</color>
+    
+    <!-- Bottom Navigation colors -->
+    <color name="bottom_nav_item_color">@color/primary</color>
+    <color name="bottom_nav_item_color_selected">@color/primary</color>
+    <color name="bottom_nav_item_color_unselected">@color/text_secondary</color>
+    
+    <!-- Dark theme Bottom Navigation colors -->
+    <color name="bottom_nav_item_color_dark">@color/primary_light</color>
+    <color name="bottom_nav_item_color_selected_dark">@color/primary_light</color>
+    <color name="bottom_nav_item_color_unselected_dark">@color/text_secondary_dark</color>
+</resources>
