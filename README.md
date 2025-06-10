@@ -33,21 +33,26 @@ Aplikasi ini dikembangkan sebagai bagian dari tugas akhir mata kuliah **Pemrogra
 ## 📦 Struktur Proyek
 Mobile_Project_2025/
 ├── app/
-│ ├── src/
-│ │ ├── main/
-│ │ │ ├── java/com/project/todolist/
-│ │ │ │ ├── activity/ # Menangani layar utama dan navigasi
-│ │ │ │ ├── fragment/ # Fragment untuk daftar tugas dan form input
-│ │ │ │ ├── adapter/ # RecyclerViewAdapter untuk daftar tugas
-│ │ │ │ ├── model/ # Data class dan entitas Room
-│ │ │ │ └── database/ # DAO dan RoomDatabase class
-│ │ │ └── res/
-│ │ │ ├── layout/ # XML layout untuk UI
-│ │ │ ├── drawable/ # Aset grafis seperti icon dan background
-│ │ │ └── values/ # Warna, string, dan tema aplikasi
-├── build.gradle
-├── settings.gradle
-└── README.md
+│   ├── src/
+│   │   └── main/
+│   │       ├── java/com/project/todolist/
+│   │       │   ├── activity/         # Kelas Activity utama (MainActivity, dsb.)
+│   │       │   ├── fragment/         # Fragment UI untuk daftar tugas, tambah/edit tugas
+│   │       │   ├── adapter/          # RecyclerView adapter untuk menampilkan list tugas
+│   │       │   ├── model/            # Model data dan entitas Room (misal: Task.java)
+│   │       │   └── database/         # Room database, DAO interface
+│   │       ├── res/
+│   │       │   ├── layout/           # XML layout UI (activity_main.xml, fragment_task.xml, dsb.)
+│   │       │   ├── drawable/         # Aset grafis (ikon, background, dsb.)
+│   │       │   └── values/
+│   │       │       ├── colors.xml    # Definisi warna aplikasi
+│   │       │       ├── strings.xml   # String lokal untuk UI
+│   │       │       └── themes.xml    # Tema aplikasi
+│   │       └── AndroidManifest.xml   # Deklarasi komponen aplikasi
+├── build.gradle                     # Konfigurasi build aplikasi
+├── settings.gradle                  # Pengaturan proyek dan modul
+└── README.md                        # Dokumentasi proyek
+
 
 ---
 
