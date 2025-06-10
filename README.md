@@ -32,27 +32,24 @@ Aplikasi ini dikembangkan sebagai bagian dari tugas akhir mata kuliah **Pemrogra
 
 ## Struktur Proyek
 Mobile_Project_2025/
+```bash
+Mobile_Project_2025/
 ├── app/
-│   ├── src/
-│   │   └── main/
-│   │       ├── java/com/project/todolist/
-│   │       │   ├── activity/         # Kelas Activity utama (MainActivity, dsb.)
-│   │       │   ├── fragment/         # Fragment UI untuk daftar tugas, tambah/edit tugas
-│   │       │   ├── adapter/          # RecyclerView adapter untuk menampilkan list tugas
-│   │       │   ├── model/            # Model data dan entitas Room (misal: Task.java)
-│   │       │   └── database/         # Room database, DAO interface
-│   │       ├── res/
-│   │       │   ├── layout/           # XML layout UI (activity_main.xml, fragment_task.xml, dsb.)
-│   │       │   ├── drawable/         # Aset grafis (ikon, background, dsb.)
-│   │       │   └── values/
-│   │       │       ├── colors.xml    # Definisi warna aplikasi
-│   │       │       ├── strings.xml   # String lokal untuk UI
-│   │       │       └── themes.xml    # Tema aplikasi
-│   │       └── AndroidManifest.xml   # Deklarasi komponen aplikasi
-├── build.gradle                     # Konfigurasi build aplikasi
-├── settings.gradle                  # Pengaturan proyek dan modul
-└── README.md                        # Dokumentasi proyek
-
+│   ├── src/main/
+│   │   ├── java/com/project/todolist/
+│   │   │   ├── activity/        # MainActivity, navigasi layar utama  
+│   │   │   ├── fragment/        # Daftar tugas & form input/edit tugas  
+│   │   │   ├── adapter/         # TaskAdapter untuk RecyclerView  
+│   │   │   ├── model/           # Entity Task.java & model data  
+│   │   │   └── database/        # TaskDao.java & AppDatabase.java  
+│   │   ├── res/
+│   │   │   ├── layout/          # XML layout untuk Activity/Fragment  
+│   │   │   ├── drawable/        # Ikon, background  
+│   │   │   └── values/          # colors.xml, strings.xml, themes.xml  
+│   │   └── AndroidManifest.xml
+├── build.gradle                # Konfigurasi build (modul app)
+├── settings.gradle            # Setup modul dan root project
+└── README.md                  # Dokumentasi proyek ini
 
 ---
 
