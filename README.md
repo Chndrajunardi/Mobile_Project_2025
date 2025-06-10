@@ -80,11 +80,17 @@ Menggunakan LiveData dan ViewModel, semua perubahan data langsung ditampilkan di
 
 ---
 ## Tampilan Aplikasi
+### Home
 ![Home Screen](screenshots/Home.png)  
+### Add Task
 ![Add Task](screenshots/Add_Task.png)
+### Add Date
 ![Add Task](screenshots/Add_Date.png)
+### Daily Quotes
 ![Add Task](screenshots/Daily_Quotes.png)
+### Edit Task
 ![Add Task](screenshots/Edit_Task.png)
+### Setting
 ![Add Task](screenshots/Setting.png)
 ---
 
